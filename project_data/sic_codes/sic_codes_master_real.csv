@@ -1,0 +1,1006 @@
+code,description
+0111,Wheat
+0112,Rice
+0115,Corn
+0116,Soybeans
+0119,"Cash grains, nec"
+0131,Cotton
+0132,Tobacco
+0133,Sugarcane and sugar beets
+0134,Irish potatoes
+0139,"Field crops, except cash grain"
+0161,Vegetables and melons
+0171,Berry crops
+0172,Grapes
+0173,Tree nuts
+0174,Citrus fruits
+0175,Deciduous tree fruits
+0179,"Fruits and tree nuts, nec"
+0181,Ornamental nursery products
+0182,Food crops grown under cover
+0191,"General farms, primarily crop"
+0211,Beef cattle feedlots
+0212,"Beef cattle, except feedlots"
+0213,Hogs
+0214,Sheep and goats
+0219,"General livestock, nec"
+0241,Dairy farms
+0251,"Broiler, fryer, and roaster chickens"
+0252,Chicken eggs
+0253,Turkeys and turkey eggs
+0254,Poultry hatcheries
+0259,"Poultry and eggs, nec"
+0271,Fur-bearing animals and rabbits
+0272,Horses and other equines
+0273,Animal aquaculture
+0279,"Animal specialties, nec"
+0291,"General farms, primarily animals"
+0711,Soil preparation services
+0721,Crop planting and protection
+0722,Crop harvesting
+0723,Crop preparation services for market
+0724,Cotton ginning
+0741,Veterinary services for livestock
+0742,"Veterinary services, specialties"
+0751,"Livestock services, except veterinary"
+0752,Animal specialty services
+0761,Farm labor contractors
+0762,Farm management services
+0781,Landscape counseling and planning
+0782,Lawn and garden services
+0783,Ornamental shrub and tree services
+0811,Timber tracts
+0831,Forest products
+0851,Forestry services
+0912,Finfish
+0913,Shellfish
+0919,Miscellaneous marine products
+0921,Fish hatcheries and preserves
+0971,"Hunting, trapping, game propagation"
+1011,Iron ores
+1021,Copper ores
+1031,Lead and zinc ores
+1041,Gold ores
+1044,Silver ores
+1061,"Ferroalloy ores, except vanadium"
+1081,Metal mining services
+1094,Uranium-radium-vanadium ores
+1099,"Metal ores, nec"
+1221,Bituminous coal and lignite-surface mining
+1222,Bituminous coal-underground mining
+1231,Anthracite mining
+1241,Coal mining services
+1311,Crude petroleum and natural gas
+1321,Natural gas liquids
+1381,Drilling oil and gas wells
+1382,Oil and gas exploration services
+1389,"Oil and gas field services, nec"
+1411,Dimension stone
+1422,Crushed and broken limestone
+1423,Crushed and broken granite
+1429,"Crushed and broken stone, nec"
+1442,Construction sand and gravel
+1446,Industrial sand
+1455,Kaolin and ball clay
+1459,"Clay and related minerals, nec"
+1474,"Potash, soda, and borate minerals"
+1475,Phosphate rock
+1479,Chemical and fertilizer mining
+1481,Nonmetallic mineral services
+1499,Miscellaneous nonmetallic mining
+1521,Single-family housing construction
+1522,"Residential construction, nec"
+1531,Operative builders
+1541,Industrial buildings and warehouses
+1542,"Nonresidential construction, nec"
+1611,Highway and street construction
+1622,"Bridge, tunnel, and elevated highway"
+1623,"Water, sewer, and utility lines"
+1629,"Heavy construction, nec"
+1711,"Plumbing, heating, air-conditioning"
+1721,Painting and paper hanging
+1731,Electrical work
+1741,Masonry and other stonework
+1742,"Plastering, drywall, and insulation"
+1743,"Terrazzo, tile, marble, mosaic work"
+1751,Carpentry work
+1752,"Floor laying and floor work, nec"
+1761,"Roofing, siding, and sheetmetal work"
+1771,Concrete work
+1781,Water well drilling
+1791,Structural steel erection
+1793,Glass and glazing work
+1794,Excavation work
+1795,Wrecking and demolition work
+1796,Installing building equipment
+1799,"Special trade contractors, nec"
+2011,Meat packing plants
+2013,Sausages and other prepared meats
+2015,Poultry slaughtering and processing
+2021,Creamery butter
+2022,Cheese; natural and processed
+2023,"Dry, condensed, evaporated products"
+2024,Ice cream and frozen deserts
+2026,Fluid milk
+2032,Canned specialties
+2033,Canned fruits and specialties
+2034,"Dehydrated fruits, vegetables, soups"
+2035,"Pickles, sauces, and salad dressings"
+2037,Frozen fruits and vegetables
+2038,"Frozen specialties, nec"
+2041,Flour and other grain mill products
+2043,Cereal breakfast foods
+2044,Rice milling
+2045,Prepared flour mixes and doughs
+2046,Wet corn milling
+2047,Dog and cat food
+2048,"Prepared feeds, nec"
+2051,"Bread, cake, and related products"
+2052,Cookies and crackers
+2053,"Frozen bakery products, except bread"
+2061,Raw cane sugar
+2062,Cane sugar refining
+2063,Beet sugar
+2064,Candy and other confectionery products
+2066,Chocolate and cocoa products
+2067,Chewing gum
+2068,Salted and roasted nuts and seeds
+2074,Cottonseed oil mills
+2075,Soybean oil mills
+2076,"Vegetable oil mills, nec"
+2077,Animal and marine fats and oils
+2079,Edible fats and oils
+2082,Malt beverages
+2083,Malt
+2084,"Wines, brandy, and brandy spirits"
+2085,Distilled and blended liquors
+2086,Bottled and canned soft drinks
+2087,"Flavoring extracts and syrups, nec"
+2091,Canned and cured fish and seafoods
+2092,Fresh or frozen packaged fish
+2095,Roasted coffee
+2096,Potato chips and similar snacks
+2097,Manufactured ice
+2098,Macaroni and spaghetti
+2099,"Food preparations, nec"
+2111,Cigarettes
+2121,Cigars
+2131,Chewing and smoking tobacco
+2141,Tobacco stemming and redrying
+2211,"Broadwoven fabric mills, cotton"
+2221,"Broadwoven fabric mills, manmade"
+2231,"Broadwoven fabric mills, wool"
+2241,Narrow fabric mills
+2251,"Women's hosiery, except socks"
+2252,"Hosiery, nec"
+2253,Knit outerwear mills
+2254,Knit underwear mills
+2257,Weft knit fabric mills
+2258,Lace and warp knit fabric mills
+2259,"Knitting mills, nec"
+2261,"Finishing plants, cotton"
+2262,"Finishing plants, manmade"
+2269,"Finishing plants, nec"
+2273,Carpets and rugs
+2281,Yarn spinning mills
+2282,Throwing and winding mills
+2284,Thread mills
+2295,"Coated fabrics, not rubberized"
+2296,Tire cord and fabrics
+2297,Nonwoven fabrics
+2298,Cordage and twine
+2299,"Textile goods, nec"
+2311,Men's and boy's suits and coats
+2321,Men's and boy's furnishings
+2322,Men's and boy's underwear and nightwear
+2323,Men's and boy's neckwear
+2325,Men's and boy's trousers and slacks
+2326,Men's and boy's work clothing
+2329,"Men's and boy's clothing, nec"
+2331,Women's and misses' blouses and shirts
+2335,"Women's, junior's, and misses' dresses"
+2337,Women's and misses' suits and coats
+2339,"Women's and misses' outerwear, nec"
+2341,Women's and children's underwear
+2342,"Bras, girdles, and allied garments"
+2353,"Hats, caps, and millinery"
+2361,"Girl's and children's dresses, blouses"
+2369,"Girl's and children's outerwear, nec"
+2371,Fur goods
+2381,Fabric dress and work gloves
+2384,Robes and dressing gowns
+2385,Waterproof outerwear
+2386,Leather and sheep-lined clothing
+2387,Apparel belts
+2389,"Apparel and accessories, nec"
+2391,Curtains and draperies
+2392,"Household furnishings, nec"
+2393,Textile bags
+2394,Canvas and related products
+2395,Pleating and stitching
+2396,Automotive and apparel trimmings
+2397,Schiffli machine embroideries
+2399,"Fabricated textile products, nec"
+2411,Logging
+2421,"Sawmills and planing mills, general"
+2426,Hardwood dimension and flooring mills
+2429,"Special product sawmills, nec"
+2431,Millwork
+2434,Wood kitchen cabinets
+2435,Hardwood veneer and plywood
+2436,Softwood veneer and plywood
+2439,"Structural wood members, nec"
+2441,Nailed wood boxes and shook
+2448,Wood pallets and skids
+2449,"Wood containers, nec"
+2451,Mobile homes
+2452,Prefabricated wood buildings
+2491,Wood preserving
+2493,Reconstituted wood products
+2499,"Wood products, nec"
+2511,Wood household furniture
+2512,Upholstered household furniture
+2514,Metal household furniture
+2515,Mattresses and bedsprings
+2517,Wood television and radio cabinets
+2519,"Household furniture, nec"
+2521,Wood office furniture
+2522,"Office furniture, except wood"
+2531,Public building and related furniture
+2541,Wood partitions and fixtures
+2542,"Partitions and fixtures, except wood"
+2591,Drapery hardware and blinds and shades
+2599,"Furniture and fixtures, nec"
+2611,Pulp mills
+2621,Paper mills
+2631,Paperboard mills
+2652,Setup paperboard boxes
+2653,Corrugated and solid fiber boxes
+2655,"Fiber cans, drums, and similar products"
+2656,Sanitary food containers
+2657,Folding paperboard boxes
+2671,Paper; coated and laminated packaging
+2672,"Paper; coated and laminated, nec"
+2673,"Bags: plastic, laminated, and coated"
+2674,Bags: uncoated paper and multiwall
+2675,Die-cut paper and board
+2676,Sanitary paper products
+2677,Envelopes
+2678,Stationery products
+2679,"Converted paper products, nec"
+2711,Newspapers
+2721,Periodicals
+2731,Book publishing
+2732,Book printing
+2741,Miscellaneous publishing
+2752,"Commercial printing, lithographic"
+2754,"Commercial printing, gravure"
+2759,"Commercial printing, nec"
+2761,Manifold business forms
+2771,Greeting cards
+2782,Blankbooks and looseleaf binders
+2789,Bookbinding and related work
+2791,Typesetting
+2796,Platemaking services
+2812,Alkalies and chlorine
+2813,Industrial gases
+2816,Inorganic pigments
+2819,"Industrial inorganic chemicals, nec"
+2821,Plastics materials and resins
+2822,Synthetic rubber
+2823,Cellulosic manmade fibers
+2824,"Organic fibers, noncellulosic"
+2833,Medicinals and botanicals
+2834,Pharmaceutical preparations
+2835,Diagnostic substances
+2836,"Biological products, except diagnostic"
+2841,Soap and other detergents
+2842,Polishes and sanitation goods
+2843,Surface active agents
+2844,Toilet preparations
+2851,Paints and allied products
+2861,Gum and wood chemicals
+2865,Cyclic crudes and intermediates
+2869,"Industrial organic chemicals, nec"
+2873,Nitrogenous fertilizers
+2874,Phosphatic fertilizers
+2875,"Fertilizers, mixing only"
+2879,"Agricultural chemicals, nec"
+2891,Adhesives and sealants
+2892,Explosives
+2893,Printing ink
+2895,Carbon black
+2899,"Chemical preparations, nec"
+2911,Petroleum refining
+2951,Asphalt paving mixtures and blocks
+2952,Asphalt felts and coatings
+2992,Lubricating oils and greases
+2999,"Petroleum and coal products, nec"
+3011,Tires and inner tubes
+3021,Rubber and plastics footwear
+3052,Rubber and plastics hose and beltings
+3053,Gaskets; packing and sealing devices
+3061,Mechanical rubber goods
+3069,"Fabricated rubber products, nec"
+3081,Unsupported plastics film and sheet
+3082,Unsupported plastics profile shapes
+3083,Laminated plastics plate and sheet
+3084,Plastics pipe
+3085,Plastics bottles
+3086,Plastics foam products
+3087,Custom compound purchased resins
+3088,Plastics plumbing fixtures
+3089,"Plastics products, nec"
+3111,Leather tanning and finishing
+3131,Footwear cut stock
+3142,House slippers
+3143,"Men's footwear, except athletic"
+3144,"Women's footwear, except athletic"
+3149,"Footwear, except rubber, nec"
+3151,Leather gloves and mittens
+3161,Luggage
+3171,Women's handbags and purses
+3172,"Personal leather goods, nec"
+3199,"Leather goods, nec"
+3211,Flat glass
+3221,Glass containers
+3229,"Pressed and blown glass, nec"
+3231,Products of purchased glass
+3241,"Cement, hydraulic"
+3251,Brick and structural clay tile
+3253,Ceramic wall and floor tile
+3255,Clay refractories
+3259,"Structural clay products, nec"
+3261,Vitreous plumbing fixtures
+3262,Vitreous china table and kitchenware
+3263,Semivitreous table and kitchenware
+3264,Porcelain electrical supplies
+3269,"Pottery products, nec"
+3271,Concrete block and brick
+3272,"Concrete products, nec"
+3273,Ready-mixed concrete
+3274,Lime
+3275,Gypsum products
+3281,Cut stone and stone products
+3291,Abrasive products
+3292,Asbestos products
+3295,"Minerals, ground or treated"
+3296,Mineral wool
+3297,Nonclay refractories
+3299,"Nonmetallic mineral products,"
+3312,Blast furnaces and steel mills
+3313,Electrometallurgical products
+3315,Steel wire and related products
+3316,Cold finishing of steel shapes
+3317,Steel pipe and tubes
+3321,Gray and ductile iron foundries
+3322,Malleable iron foundries
+3324,Steel investment foundries
+3325,"Steel foundries, nec"
+3331,Primary copper
+3334,Primary aluminum
+3339,"Primary nonferrous metals, nec"
+3341,Secondary nonferrous metals
+3351,Copper rolling and drawing
+3353,"Aluminum sheet, plate, and foil"
+3354,Aluminum extruded products
+3355,"Aluminum rolling and drawing, nec"
+3356,"Nonferrous rolling and drawing, nec"
+3357,Nonferrous wiredrawing and insulating
+3363,Aluminum die-castings
+3364,Nonferrous die-castings except aluminum
+3365,Aluminum foundries
+3366,Copper foundries
+3369,"Nonferrous foundries, nec"
+3398,Metal heat treating
+3399,Primary metal products
+3411,Metal cans
+3412,"Metal barrels, drums, and pails"
+3421,Cutlery
+3423,"Hand and edge tools, nec"
+3425,Saw blades and handsaws
+3429,"Hardware, nec"
+3431,Metal sanitary ware
+3432,Plumbing fixture fittings and trim
+3433,"Heating equipment, except electric"
+3441,Fabricated structural metal
+3442,"Metal doors, sash, and trim"
+3443,Fabricated plate work (boiler shop)
+3444,Sheet metalwork
+3446,Architectural metalwork
+3448,Prefabricated metal buildings
+3449,Miscellaneous metalwork
+3451,Screw machine products
+3452,"Bolts, nuts, rivets, and washers"
+3462,Iron and steel forgings
+3463,Nonferrous forgings
+3465,Automotive stampings
+3466,Crowns and closures
+3469,"Metal stampings, nec"
+3471,Plating and polishing
+3479,Metal coating and allied services
+3482,Small arms ammunition
+3483,"Ammunition, except for small arms, nec"
+3484,Small arms
+3489,"Ordnance and accessories, nec"
+3491,Industrial valves
+3492,Fluid power valves and hose fittings
+3493,"Steel springs, except wire"
+3494,"Valves and pipe fittings, nec"
+3495,Wire springs
+3496,Miscellaneous fabricated wire products
+3497,Metal foil and leaf
+3498,Fabricated pipe and fittings
+3499,"Fabricated metal products, nec"
+3511,Turbines and turbine generator sets
+3519,"Internal combustion engines, nec"
+3523,Farm machinery and equipment
+3524,Lawn and garden equipment
+3531,Construction machinery
+3532,Mining machinery
+3533,Oil and gas field machinery
+3534,Elevators and moving stairways
+3535,Conveyors and conveying equipment
+3536,"Hoists, cranes, and monorails"
+3537,Industrial trucks and tractors
+3541,"Machine tools, metal cutting type"
+3542,"Machine tools, metal forming type"
+3543,Industrial patterns
+3544,"Special dies, tools, jigs, and fixtures"
+3545,Machine tool accessories
+3546,Power-driven handtools
+3547,Rolling mill machinery
+3548,Welding apparatus
+3549,"Metalworking machinery, nec"
+3552,Textile machinery
+3553,Woodworking machinery
+3554,Paper industries machinery
+3555,Printing trades machinery
+3556,Food products machinery
+3559,"Special industry machinery, nec"
+3561,Pumps and pumping equipment
+3562,Ball and roller bearings
+3563,Air and gas compressors
+3564,Blowers and fans
+3565,Packaging machinery
+3566,"Speed changers, drives, and gears"
+3567,Industrial furnaces and ovens
+3568,"Power transmission equipment, nec"
+3569,"General industrial machinery,"
+3571,Electronic computers
+3572,Computer storage devices
+3575,Computer terminals
+3577,"Computer peripheral equipment, nec"
+3578,Calculating and accounting equipment
+3579,"Office machines, nec"
+3581,Automatic vending machines
+3582,Commercial laundry equipment
+3585,Refrigeration and heating equipment
+3586,Measuring and dispensing pumps
+3589,"Service industry machinery, nec"
+3592,"Carburetors, pistons, rings, valves"
+3593,Fluid power cylinders and actuators
+3594,Fluid power pumps and motors
+3596,"Scales and balances, except laboratory"
+3599,"Industrial machinery, nec"
+3612,"Transformers, except electric"
+3613,Switchgear and switchboard apparatus
+3621,Motors and generators
+3624,Carbon and graphite products
+3625,Relays and industrial controls
+3629,Electrical industrial apparatus
+3631,Household cooking equipment
+3632,Household refrigerators and freezers
+3633,Household laundry equipment
+3634,Electric housewares and fans
+3635,Household vacuum cleaners
+3639,"Household appliances, nec"
+3641,Electric lamps
+3643,Current-carrying wiring devices
+3644,Noncurrent-carrying wiring devices
+3645,Residential lighting fixtures
+3646,Commercial lighting fixtures
+3647,Vehicular lighting equipment
+3648,"Lighting equipment, nec"
+3651,Household audio and video equipment
+3652,Prerecorded records and tapes
+3661,Telephone and telegraph apparatus
+3663,Radio and t.v. communications equipment
+3669,"Communications equipment, nec"
+3671,Electron tubes
+3672,Printed circuit boards
+3674,Semiconductors and related devices
+3675,Electronic capacitors
+3676,Electronic resistors
+3677,Electronic coils and transformers
+3678,Electronic connectors
+3679,"Electronic components, nec"
+3691,Storage batteries
+3692,"Primary batteries, dry and wet"
+3694,Engine electrical equipment
+3695,Magnetic and optical recording media
+3699,"Electrical equipment and supplies, nec"
+3711,Motor vehicles and car bodies
+3713,Truck and bus bodies
+3714,Motor vehicle parts and accessories
+3715,Truck trailers
+3716,Motor homes
+3721,Aircraft
+3724,Aircraft engines and engine parts
+3728,"Aircraft parts and equipment, nec"
+3731,Shipbuilding and repairing
+3732,Boatbuilding and repairing
+3743,Railroad equipment
+3751,"Motorcycles, bicycles, and parts"
+3761,Guided missiles and space vehicles
+3764,Space propulsion units and parts
+3769,"Space vehicle equipment, nec"
+3792,Travel trailers and campers
+3795,Tanks and tank components
+3799,"Transportation equipment, nec"
+3812,Search and navigation equipment
+3821,Laboratory apparatus and furniture
+3822,Environmental controls
+3823,Process control instruments
+3824,Fluid meters and counting devices
+3825,Instruments to measure electricity
+3826,Analytical instruments
+3827,Optical instruments and lenses
+3829,"Measuring and controlling devices, nec"
+3841,Surgical and medical instruments
+3842,Surgical appliances and supplies
+3843,Dental equipment and supplies
+3844,X-ray apparatus and tubes
+3845,Electromedical equipment
+3851,Ophthalmic goods
+3861,Photographic equipment and supplies
+3873,"Watches, clocks, watchcases, and parts"
+3911,"Jewelry, precious metal"
+3914,Silverware and plated ware
+3915,Jewelers' materials and lapidary work
+3931,Musical instruments
+3942,Dolls and stuffed toys
+3944,"Games, toys, and children's vehicles"
+3949,"Sporting and athletic goods, nec"
+3951,Pens and mechanical pencils
+3952,Lead pencils and art goods
+3953,Marking devices
+3955,Carbon paper and inked ribbons
+3961,Costume jewelry
+3965,"Fasteners, buttons, needles, and pins"
+3991,Brooms and brushes
+3993,Signs and advertising specialties
+3995,Burial caskets
+3996,"Hard surface floor coverings, nec"
+3999,"Manufacturing industries, nec"
+4011,"Railroads, line-haul operating"
+4013,Switching and terminal services
+4111,Local and suburban transit
+4119,"Local passenger transportation, nec"
+4121,Taxicabs
+4131,Intercity and rural bus transportation
+4141,Local bus charter service
+4142,"Bus charter service, except local"
+4151,School buses
+4173,Bus terminal and service facilities
+4212,"Local trucking, without storage"
+4213,"Trucking, except local"
+4214,Local trucking with storage
+4215,"Courier services, except by air"
+4221,Farm product warehousing and storage
+4222,Refrigerated warehousing and storage
+4225,General warehousing and storage
+4226,"Special warehousing and storage, nec"
+4231,Trucking terminal facilities
+4311,U.S. Postal Service
+4412,Deep sea foreign transportation of freight
+4424,Deep sea domestic transportation of freight
+4432,Freight transportation on the great lakes
+4449,Water transportation of freight
+4481,"Deep sea passenger transportation, except ferry"
+4482,Ferries
+4489,Water passenger transportation
+4491,Marine cargo handling
+4492,Towing and tugboat service
+4493,Marinas
+4499,"Water transportation services, nec"
+4512,"Air transportation, scheduled"
+4513,Air courier services
+4522,"Air transportation, nonscheduled"
+4581,"Airports, flying fields, and services"
+4612,Crude petroleum pipelines
+4613,Refined petroleum pipelines
+4619,"Pipelines, nec"
+4724,Travel agencies
+4725,Tour operators
+4729,Passenger transportation arrangement
+4731,Freight transportation arrangement
+4741,Rental of railroad cars
+4783,Packing and crating
+4785,Inspection and fixed facilities
+4789,"Transportation services, nec"
+4812,Radiotelephone communication
+4813,"Telephone communication, except radio"
+4822,Telegraph and other communications
+4832,Radio broadcasting stations
+4833,Television broadcasting stations
+4841,Cable and other pay television services
+4899,"Communication services, nec"
+4911,Electric services
+4922,Natural gas transmission
+4923,Gas transmission and distribution
+4924,Natural gas distribution
+4925,Gas production and/or distribution
+4931,Electric and other services combined
+4932,Gas and other services combined
+4939,"Combination utilities, nec"
+4941,Water supply
+4952,Sewerage systems
+4953,Refuse systems
+4959,"Sanitary services, nec"
+4961,Steam and air-conditioning supply
+4971,Irrigation systems
+5012,Automobiles and other motor vehicles
+5013,Motor vehicle supplies and new parts
+5014,Tires and tubes
+5015,"Motor vehicle parts, used"
+5021,Furniture
+5023,Homefurnishings
+5031,"Lumber, plywood, and millwork"
+5032,"Brick, stone, and related material"
+5033,"Roofing, siding, and insulation"
+5039,"Construction materials, nec"
+5043,Photographic equipment and supplies
+5044,Office equipment
+5045,"Computers, peripherals, and software"
+5046,"Commercial equipment, nec"
+5047,Medical and hospital equipment
+5048,Ophthalmic goods
+5049,"Professional equipment, nec"
+5051,Metals service centers and offices
+5052,Coal and other minerals and ores
+5063,Electrical apparatus and equipment
+5064,"Electrical appliances, television and radio"
+5065,"Electronic parts and equipment, nec"
+5072,Hardware
+5074,Plumbing and hydronic heating supplies
+5075,Warm air heating and air conditioning
+5078,Refrigeration equipment and supplies
+5082,Construction and mining machinery
+5083,Farm and garden machinery
+5084,Industrial machinery and equipment
+5085,Industrial supplies
+5087,Service establishment equipment
+5088,Transportation equipment and supplies
+5091,Sporting and recreation goods
+5092,Toys and hobby goods and supplies
+5093,Scrap and waste materials
+5094,Jewelry and precious stones
+5099,"Durable goods, nec"
+5111,Printing and writing paper
+5112,Stationery and office supplies
+5113,Industrial and personal service paper
+5122,"Drugs, proprietaries, and sundries"
+5131,Piece goods and notions
+5136,Men's and boy's clothing
+5137,Women's and children's clothing
+5139,Footwear
+5141,"Groceries, general line"
+5142,Packaged frozen goods
+5143,"Dairy products, except dried or canned"
+5144,Poultry and poultry products
+5145,Confectionery
+5146,Fish and seafoods
+5147,Meats and meat products
+5148,Fresh fruits and vegetables
+5149,"Groceries and related products, nec"
+5153,Grain and field beans
+5154,Livestock
+5159,"Farm-product raw materials, nec"
+5162,Plastics materials and basic shapes
+5169,"Chemicals and allied products, nec"
+5171,Petroleum bulk stations and terminals
+5172,"Petroleum products, nec"
+5181,Beer and ale
+5182,Wine and distilled beverages
+5191,Farm supplies
+5192,"Books, periodicals, and newspapers"
+5193,Flowers and florists supplies
+5194,Tobacco and tobacco products
+5198,"Paints, varnishes, and supplies"
+5199,"Nondurable goods, nec"
+5211,Lumber and other building materials
+5231,"Paint, glass, and wallpaper stores"
+5251,Hardware stores
+5261,Retail nurseries and garden stores
+5271,Mobile home dealers
+5311,Department stores
+5331,Variety stores
+5399,Miscellaneous general merchandise
+5411,Grocery stores
+5421,Meat and fish markets
+5431,Fruit and vegetable markets
+5441,"Candy, nut, and confectionery stores"
+5451,Dairy products stores
+5461,Retail bakeries
+5499,Miscellaneous food stores
+5511,New and used car dealers
+5521,Used car dealers
+5531,Auto and home supply stores
+5541,Gasoline service stations
+5551,Boat dealers
+5561,Recreational vehicle dealers
+5571,Motorcycle dealers
+5599,"Automotive dealers, nec"
+5611,Men's and boys' clothing stores
+5621,Women's clothing stores
+5632,Women's accessory and specialty stores
+5641,Children's and infants' wear stores
+5651,Family clothing stores
+5661,Shoe stores
+5699,Miscellaneous apparel and accessories
+5712,Furniture stores
+5713,Floor covering stores
+5714,Drapery and upholstery stores
+5719,Miscellaneous homefurnishings
+5722,Household appliance stores
+5731,"Radio, television, and electronic stores"
+5734,Computer and software stores
+5735,Record and prerecorded tape stores
+5736,Musical instrument stores
+5812,Eating places
+5813,Drinking places
+5912,Drug stores and proprietary stores
+5921,Liquor stores
+5932,Used merchandise stores
+5941,Sporting goods and bicycle shops
+5942,Book stores
+5943,Stationery stores
+5944,Jewelry stores
+5945,"Hobby, toy, and game shops"
+5946,Camera and photographic supply stores
+5947,"Gift, novelty, and souvenir shop"
+5948,Luggage and leather goods stores
+5949,"Sewing, needlework, and piece goods"
+5961,Catalog and mail-order houses
+5962,Merchandising machine operators
+5963,Direct selling establishments
+5983,Fuel oil dealers
+5984,Liquefied petroleum gas dealers
+5989,"Fuel dealers, nec"
+5992,Florists
+5993,Tobacco stores and stands
+5994,News dealers and newsstands
+5995,Optical goods stores
+5999,"Miscellaneous retail stores, nec"
+6011,Federal reserve banks
+6019,"Central reserve depository, nec"
+6021,National commercial banks
+6022,State commercial banks
+6029,"Commercial banks, nec"
+6035,Federal savings institutions
+6036,"Savings institutions, except federal"
+6061,Federal credit unions
+6062,State credit unions
+6081,Foreign bank and branches and agencies
+6082,Foreign trade and international banks
+6091,Nondeposit trust facilities
+6099,Functions related to depository banking
+6111,Federal and federally sponsored credit
+6141,Personal credit institutions
+6153,Short-term business credit
+6159,Miscellaneous business credit
+6162,Mortgage bankers and correspondents
+6163,Loan brokers
+6211,Security brokers and dealers
+6221,"Commodity contracts brokers, dealers"
+6231,Security and commodity exchanges
+6282,Investment advice
+6289,Security and commodity service
+6311,Life insurance
+6321,Accident and health insurance
+6324,Hospital and medical service plans
+6331,"Fire, marine, and casualty insurance"
+6351,Surety insurance
+6361,Title insurance
+6371,"Pension, health, and welfare funds"
+6399,"Insurance carriers, nec"
+6411,"Insurance agents, brokers, and service"
+6512,Nonresidential building operators
+6513,Apartment building operators
+6514,"Dwelling operators, except apartments"
+6515,Mobile home site operators
+6517,Railroad property lessors
+6519,"Real property lessors, nec"
+6531,Real estate agents and managers
+6541,Title abstract offices
+6552,"Subdividers and developers, nec"
+6553,Cemetery subdividers and developers
+6712,Bank holding companies
+6719,"Holding companies, nec"
+6722,"Management investment, open-ended"
+6726,"Investment offices, nec"
+6732,"Trusts: educational, religious, etc."
+6733,"Trusts, nec"
+6792,Oil royalty traders
+6794,Patent owners and lessors
+6798,Real estate investment trusts
+6799,"Investors, nec"
+7011,Hotels and motels
+7021,Rooming and boarding houses
+7032,Sporting and recreational camps
+7033,Trailer parks and campsites
+7041,Membership-basis organization hotels
+7211,"Power laundries, family and commercial"
+7212,Garment pressing and cleaners' agents
+7213,Linen supply
+7215,Coin-operated laundries and cleaning
+7216,"Drycleaning plants, except rugs"
+7217,Carpet and upholstery cleaning
+7218,Industrial launderers
+7219,"Laundry and garment services, nec"
+7221,"Photographic studios, portrait"
+7231,Beauty shops
+7241,Barber shops
+7251,Shoe repair and shoeshine parlors
+7261,Funeral service and crematories
+7291,Tax return preparation services
+7299,Miscellaneous personal services
+7311,Advertising agencies
+7312,Outdoor advertising services
+7313,"Radio, television, publisher representatives"
+7319,"Advertising, nec"
+7322,Adjustment and collection services
+7323,Credit reporting services
+7331,Direct mail advertising services
+7334,Photocopying and duplicating services
+7335,Commercial photography
+7336,Commercial art and graphic design
+7338,Secretarial and court reporting
+7342,Disinfecting and pest control services
+7349,"Building maintenance services, nec"
+7352,Medical equipment rental
+7353,Heavy construction equipment rental
+7359,"Equipment rental and leasing, nec"
+7361,Employment agencies
+7363,Help supply services
+7371,Custom computer programming services
+7372,Prepackaged software
+7373,Computer integrated systems design
+7374,Data processing and preparation
+7375,Information retrieval services
+7376,Computer facilities management
+7377,Computer rental and leasing
+7378,Computer maintenance and repair
+7379,"Computer related services, nec"
+7381,Detective and armored car services
+7382,Security systems services
+7383,News syndicates
+7384,Photofinish laboratories
+7389,"Business services, nec"
+7513,"Truck rental and leasing, without drivers"
+7514,Passenger car rental
+7515,Passenger car leasing
+7519,Utility trailer rental
+7521,Automobile parking
+7532,Top and body repair and paint shops
+7533,Auto exhaust system repair shops
+7534,Tire retreading and repair shops
+7536,Automotive glass replacement shops
+7537,Automotive transmission repair shops
+7538,General automotive repair shops
+7539,"Automotive repair shops, nec"
+7542,Carwashes
+7549,"Automotive services, nec"
+7622,Radio and television repair
+7623,Refrigeration service and repair
+7629,Electrical repair shops
+7631,"Watch, clock, and jewelry repair"
+7641,Reupholstery and furniture repair
+7692,Welding repair
+7694,Armature rewinding shops
+7699,"Repair services, nec"
+7812,Motion picture and video production
+7819,Services allied to motion pictures
+7822,Motion picture and tape distribution
+7829,Motion picture distribution services
+7832,"Motion picture theaters, except drive-in"
+7833,Drive-in motion picture theaters
+7841,Video tape rental
+7911,"Dance studios, schools, and halls"
+7922,Theatrical producers and services
+7929,Entertainers and entertainment groups
+7933,Bowling centers
+7941,"Sports clubs, managers, and promoters"
+7948,"Racing, including track operation"
+7991,Physical fitness facilities
+7992,Public golf courses
+7993,Coin-operated amusement devices
+7996,Amusement parks
+7997,Membership sports and recreation clubs
+7999,"Amusement and recreation, nec"
+8011,Offices and clinics of medical doctors
+8021,Offices and clinics of dentists
+8031,Offices and clinics of osteopathic physicians
+8041,Offices and clinics of chiropractors
+8042,Offices and clinics of optometrists
+8043,Offices and clinics of podiatrists
+8049,Offices of health practitioner
+8051,Skilled nursing care facilities
+8052,Intermediate care facilities
+8059,"Nursing and personal care, nec"
+8062,General medical and surgical hospitals
+8063,Psychiatric hospitals
+8069,"Specialty hospitals, except psychiatric"
+8071,Medical laboratories
+8072,Dental laboratories
+8082,Home health care services
+8092,Kidney dialysis centers
+8093,"Specialty outpatient clinics, nec"
+8099,"Health and allied services, nec"
+8111,Legal services
+8211,Elementary and secondary schools
+8221,Colleges and universities
+8222,Junior colleges
+8231,Libraries
+8243,Data processing schools
+8244,Business and secretarial schools
+8249,"Vocational schools, nec"
+8299,Schools and educational services
+8322,Individual and family services
+8331,Job training and related services
+8351,Child day care services
+8361,Residential care
+8399,"Social services, nec"
+8412,Museums and art galleries
+8422,Botanical and zoological gardens
+8611,Business associations
+8621,Professional organizations
+8631,Labor organizations
+8641,Civic and social associations
+8651,Political organizations
+8661,Religious organizations
+8699,"Membership organizations, nec"
+8711,Engineering services
+8712,Architectural services
+8713,Surveying services
+8721,"Accounting, auditing, and bookkeeping"
+8731,Commercial physical research
+8732,Commercial nonphysical research
+8733,Noncommercial research organizations
+8734,Testing laboratories
+8741,Management services
+8742,Management consulting services
+8743,Public relations services
+8744,Facilities support services
+8748,"Business consulting, nec"
+8811,Private households
+8999,"Services, nec"
+9111,Executive offices
+9121,Legislative bodies
+9131,Executive and legislative combined
+9199,"General government, nec"
+9211,Courts
+9221,Police protection
+9222,Legal counsel and prosecution
+9223,Correctional institutions
+9224,Fire protection
+9229,"Public order and safety, nec"
+9311,"Finance, taxation, and monetary policy"
+9411,Administration of educational programs
+9431,Administration of public health programs
+9441,Administration of social and manpower programs
+9451,Administration of veterans' affairs
+9511,"Air, water, and solid waste management"
+9512,"Land, mineral, and wildlife conservation"
+9531,Housing programs
+9532,Urban and community development
+9611,Administration of general economic programs
+9621,"Regulation, administration of transportation"
+9631,"Regulation, administration of utilities"
+9641,Regulation of agricultural marketing
+9651,"Regulation, miscellaneous commercial sectors"
+9661,Space research and technology
+9711,National security
+9721,International affairs
+9999,Nonclassifiable establishments

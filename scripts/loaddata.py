@@ -57,17 +57,19 @@ def cooperTables(dbName, fName):
 	
 	##execute query 
 	##spatial data 
-	# queryCon.execute("CREATE EXTENSION postgis")
+	# queryCon.execute("CREATE EXTENSION postgis")#needs to run only once
 	# queryCon.execute(severe_injury_data_create_table)
 	##execute query 
 	##fatalities
 	# queryCon.execute(fatalities_data_create_table)
 	# ##execute query 
 	# ##sic codes
-	queryCon.execute(sic_codes_data_create_table)
+	# queryCon.execute(sic_codes_data_create_table)
 	# ##execute query 
 	# ##fnaics
-	# queryCon.execute(naics_codes_create_table)		
+	# queryCon.execute(naics_codes_create_table)	
+	# ##fnaics
+	queryCon.execute(zipcodes_shapefile_create_table)		
 	#queryCon.commit()
 	print( "TABLE CREATED")
 	print("\n")
@@ -89,7 +91,7 @@ def cooperUpload(fName):
 	print("\n")
 	print("\n")
 	#print fName
-	table_name = 'sic_codes_data'
+	table_name = 'zipcodes_spatial_data'
 	file_object = fName
 	SQL_STATEMENT = """
     COPY %s FROM STDIN WITH
@@ -144,9 +146,9 @@ with open(csv_file, 'rb') as f:
 	# cooperCreate(dbName)
 
 	##creates tables 
-	# cooperTables(dbName,f)
+	cooperTables(dbName,f)
 
 	##upload csv
-	cooperUpload(f)
+	# cooperUpload(f)
 
 	f.close()

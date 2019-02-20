@@ -86,6 +86,7 @@ fatalities_data_create_table = '''CREATE TABLE osha_fatalities_data
 
 #sic codes CSV
 #completed 2/18
+#uploaded 2/20
 sic_codes_data_create_table = '''CREATE TABLE sic_codes_data
 	(
 	code smallint primary key,
@@ -104,6 +105,65 @@ naics_codes_create_table = '''CREATE TABLE naics_codes_data
 	titles varchar(300) null
 	);'''
 
+
+
+#ogrinfo -so -al zip_codes_shape.shp
+zipcodes_shapefile_create_table = '''CREATE TABLE zipcodes_spatial_data
+	(
+	Name varchar(254) null,
+	descriptio varchar(254) null,
+	timestamp varchar(32) null,
+	timebegin varchar(32) null,
+	toimeend varchar(32) null, 
+	altitudeMo varchar(254) null,
+	tessellate float(10) null,
+	extrude float (10) null,
+	visibility float(10) null,
+	drawOrder float(10) null,
+	icon varchar(254) null,
+	ZCTA5CE10 varchar(254) null,
+	AFFGEOID10 varchar(254) null,
+	GEOID10 varchar(254) primary key, 
+	ALAND10 varchar(254) null, 
+	AWATER10 varchar(254) null,
+	geom geometry
+	);'''
+
+
+
+
+# shp2pgsql -I -s 2263 SHAPEFILE.shp DATATABLE | psql -U DATABASE_USER -d DATABASE_NAME
+
+
+
+# shp2pgsql -I -s 4326 zip_codes_shape.shp zipcodes_spatial_data2 | psql -U postgres -d osha_database
+
+# shp2pgsql -I -s 4326 zip_codes_shape.shp zipcodes_spatial_data2 > SHAPEFILE.sql
+
+# shp2pgsql -I -s 4326 zip_codes_shape.shp zipcodes_spatial_data > SHAPEFILE.sql
+
+
+
+# shp2pgsql -I -s <SRID> <PATH/TO/SHAPEFILE> <DBTABLE> > SHAPEFILE.sql
+'''
+CREATE TABLE TABLE_name(gid integer, code smallint, name varchar(32), shape_leng numeric, shape_area numeric,  geom geometry);
+'''
+# Name: String (254.0)
+# descriptio: String (254.0)
+# timestamp: String (24.0)
+# begin: String (24.0)
+# end: String (24.0)
+# altitudeMo: String (254.0)
+# tessellate: Integer64 (10.0)
+# extrude: Integer64 (10.0)
+# visibility: Integer64 (10.0)
+# drawOrder: Integer64 (10.0)
+# icon: String (254.0)
+# ZCTA5CE10: String (254.0)
+# AFFGEOID10: String (254.0)
+# GEOID10: String (254.0)
+# ALAND10: String (254.0)
+# AWATER10: String (254.0)
 
 
  # public | naics_codes_data        | table | postgres
