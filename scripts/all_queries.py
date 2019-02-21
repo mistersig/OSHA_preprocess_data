@@ -133,18 +133,20 @@ zipcodes_shapefile_create_table = '''CREATE TABLE zipcodes_spatial_data
 
 
 # shp2pgsql -I -s 2263 SHAPEFILE.shp DATATABLE | psql -U DATABASE_USER -d DATABASE_NAME
-
-
-
 # shp2pgsql -I -s 4326 zip_codes_shape.shp zipcodes_spatial_data2 | psql -U postgres -d osha_database
-
 # shp2pgsql -I -s 4326 zip_codes_shape.shp zipcodes_spatial_data2 > SHAPEFILE.sql
 
-# shp2pgsql -I -s 4326 zip_codes_shape.shp zipcodes_spatial_data > SHAPEFILE.sql
+
+
+# shp2pgsql -I -s 4326 us_states_200.shp us_states_spatial_data > SHAPEFILE.sql
+
+# psql -U postgres -d osha_database -f SHAPEFILE.sql 
 
 
 
 # shp2pgsql -I -s <SRID> <PATH/TO/SHAPEFILE> <DBTABLE> > SHAPEFILE.sql
+
+
 '''
 CREATE TABLE TABLE_name(gid integer, code smallint, name varchar(32), shape_leng numeric, shape_area numeric,  geom geometry);
 '''
